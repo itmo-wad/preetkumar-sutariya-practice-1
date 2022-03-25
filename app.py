@@ -9,7 +9,7 @@ allowed_extensions = set(["jpg", "jpeg", "png", "gif"])
 
 app = Flask(__name__, template_folder='templates')
 app.config['UPLOAD_FOLDER'] = upload_folder
-app.secret_key= b'_5#y2L"F4Q8z\n\xec]/'
+app.secret_key= b'_pgwd"Fui8z\n\xpc]/'
 
 client = MongoClient('localhost', 27017)
 db = client.practice
